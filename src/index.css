@@ -9,5 +9,5 @@ html, body {
 }
 
 .padding-section{
-    @apply px-5 py-10
+    @apply px-10 py-10
 }
