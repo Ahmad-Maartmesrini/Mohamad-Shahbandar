@@ -1,7 +1,5 @@
-// import { Trc } from "../components/ui/TRC/Trc";
 import { BackgroundGradientAnimation } from "../components/ui/background/background-gradient-animation";
 
-// <Trc />
 const Hero = () => {
   return (
     <div id="home" className="">

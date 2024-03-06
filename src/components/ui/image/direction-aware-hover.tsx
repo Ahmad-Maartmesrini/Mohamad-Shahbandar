@@ -1,9 +1,8 @@
 "use client";
 
 import { useRef, useState } from "react";
-import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion";
-import { cn } from "@/utils/cn";
+import { cn } from "../../../../utils/cn";
 
 export const DirectionAwareHover = ({
   imageUrl,
@@ -86,7 +85,7 @@ export const DirectionAwareHover = ({
               ease: "easeOut",
             }}
           >
-            <Image
+            <img
               alt="image"
               className={cn(
                 "h-full w-full object-cover scale-[1.15]",

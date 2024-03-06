@@ -1,10 +1,9 @@
 import "./App.css";
-import { Header, Hero, Projects, Cta, Footer } from "./components/__index";
+import { Hero, Projects, Cta, Footer } from "./components";
 // +963 998934803
 function App() {
   return (
     <div>
-      {/* <Header /> */}
       <Hero />
       <Projects />
       <Cta />
