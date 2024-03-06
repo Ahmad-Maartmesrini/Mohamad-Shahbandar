@@ -1,11 +1,15 @@
 import "./App.css";
-
+import { Header, Hero, Projects, Cta, Footer } from "./components/__index";
+// +963 998934803
 function App() {
-
   return (
-    <main>
-      <h1>Mohamad Shahbandar</h1>
-    </main>
+    <div>
+      {/* <Header /> */}
+      <Hero />
+      <Projects />
+      <Cta />
+      <Footer />
+    </div>
   );
 }
 
