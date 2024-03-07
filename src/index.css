@@ -2,12 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
-    max-width: 100%;
-    overflow-x: hidden;
-    background: #000;
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #000;
+  cursor: none;
 }
 
-.padding-section{
-    @apply px-10 py-10
+.padding-section {
+  @apply px-10 py-10;
+}
+
+.cursor-dot {
+  width: 4px;
+  height: 4px;
+  background: #eee;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 2;
+  pointer-events: none;
+  transition: transform 0.2s ease;
+}
+
+.cursor-outline {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid hsla(0, 0%, 100%, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+  transition: transform 0.2s ease, border-color 1s ease;
+  /* animation: pulse 2.5s linear infinite; */
+  box-shadow: 0 0 50px 10px #b565ffac;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(1);
+		opacity: 1;
+	}
+	50% {
+		transform: scale(1.25);
+		opacity: 0.25;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
 }

@@ -1,11 +1,21 @@
 import "./App.css";
-import { Hero, Projects, Footer } from "./components";
+import {
+  CustomCursor,
+  Header,
+  Hero,
+  Card,
+  Projects,
+  Footer,
+} from "./components";
 // +963 998934803
 function App() {
   return (
     <div>
+      <CustomCursor />
+      <Header />
       <Hero />
       <Projects />
+      <Card />
       <Footer />
     </div>
   );
