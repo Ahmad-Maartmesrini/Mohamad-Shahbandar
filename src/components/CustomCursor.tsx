@@ -35,7 +35,7 @@ function CustomCursor() {
   }, [cursorPosition]);
 
   return (
-    <div className="opacity-0 sm:opacity-100">
+    <div className="opacity-0 md:opacity-100">
       <div
         className="cursor-dot"
         style={{ left: cursorPosition.x, top: cursorPosition.y }}
