@@ -11,8 +11,10 @@ body {
 }
 
 .padding-section {
-  @apply px-10 py-10;
+  padding: 3rem 2rem;
 }
+
+
 
 .cursor-dot {
   width: 4px;

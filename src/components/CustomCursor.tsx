@@ -26,22 +26,22 @@ function CustomCursor() {
           top: `${cursorPosition.y}px`,
         },
         {
-          duration: 200, // Duration in milliseconds
-          easing: "ease-in-out", // Easing function
-          fill: "both", // Keeps the element's style at the end of the animation
+          duration: 200,
+          easing: "ease-in-out",
+          fill: "both",
         }
       );
     }
   }, [cursorPosition]);
 
   return (
-    <>
+    <div className="opacity-0 sm:opacity-100">
       <div
         className="cursor-dot"
         style={{ left: cursorPosition.x, top: cursorPosition.y }}
       ></div>
       <div className="cursor-outline" ref={outlineRef}></div>
-    </>
+    </div>
   );
 }
 
