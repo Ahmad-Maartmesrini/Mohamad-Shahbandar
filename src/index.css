@@ -49,7 +49,7 @@ body {
   pointer-events: none;
   transition: transform 0.2s ease, border-color 1s ease;
   /* animation: pulse 2.5s linear infinite; */
-  box-shadow: 0 0 50px 10px #b565ffac;
+  box-shadow: 0 0 75px 10px #b565ffac;
 }
 
 @keyframes pulse {

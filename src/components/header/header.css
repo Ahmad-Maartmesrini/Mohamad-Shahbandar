@@ -34,7 +34,7 @@ nav a:hover {
 }
 
 nav li:first-child {
-  margin-right: auto;
+  margin-right: 0;
 }
 
 .logo a {
@@ -56,10 +56,9 @@ nav li:first-child {
   top: 0;
   right: 0;
   height: 100vh;
-  width: 300px;
+  width: 400px;
   z-index: 999;
   background-color: hsla(0, 0%, 0%, 0.5);
-  color: hsl(0, 0%, 100%);
   backdrop-filter: blur(10px);
   box-shadow: -10px 0 10px hsla(0, 0, 0, 0.1);
   display: none;
@@ -79,6 +78,7 @@ nav li:first-child {
 
 .sidbar a {
   width: 100%;
+  color: hsl(0, 0%, 100%);
 }
 
 .mnueIcon {
@@ -86,7 +86,7 @@ nav li:first-child {
   padding-top: 7px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
   .hideOnMobile {
     display: none;
   }
@@ -96,15 +96,26 @@ nav li:first-child {
   .sidbar {
     padding-top: 0;
   }
+  nav li:first-child {
+    margin-right: auto;
+  }
+  .sidbar li {
+    margin: 2rem 0 ;
+    padding-left: 1rem;
+  }
+  .sidbar li:first-child {
+    margin: 0;
+    padding-left: 0;
+    margin-left: 20rem;
+  }
+
+  .sidbar a {
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3rem;
+  }
 }
 
 @media (max-width: 400px) {
-
-  .sidbar li {
-    margin: 1rem 0 ;
-    padding-left: 1rem;
-  }
-
   .sidbar li:first-child {
     margin: 0;
     padding-left: 0;

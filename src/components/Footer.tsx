@@ -6,22 +6,31 @@ const Footer = () => {
     <>
       <LampDemo />
       <div className="flex justify-center items-center flex-col  bg-[#010516] pb-5">
-        <div className="flex justify-between items-center text-gray-400 hover:text-white gap-10 md:gap-40 mb-10">
-          <a href="https://www.instagram.com/mo_shahbandar" target="_blank">
+        <div className="flex justify-between items-center gap-10 sm:gap-40 md:gap-64 mb-10">
+          <a
+            href="https://www.instagram.com/mo_shahbandar"
+            target="_blank"
+            className="text-gray-400 hover:text-white"
+          >
             Instgram
           </a>
           <a
             href="https://www.facebook.com/mohamad.shahbandar.33"
             target="_blank"
+            className="text-gray-400 hover:text-white"
           >
             Facebook
           </a>
-          <a href="https://wa.me/963998934803" target="_blank">
+          <a
+            href="https://wa.me/963998934803"
+            target="_blank"
+            className="text-gray-400 hover:text-white"
+          >
             WhatsApp
           </a>
         </div>
         <small className="text-white text-xs">
-          &#9400;{year()} Mohamad Shahbandar - All RIGHT RESERVED
+          &#9400; {year()} MOHAMAD SHAHBANDAR • All RIGHT RESERVED
         </small>
       </div>
     </>
