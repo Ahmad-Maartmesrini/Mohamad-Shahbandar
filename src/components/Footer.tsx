@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </div>
         <small className="text-white text-xs">
-          &#9400;{year()} Mohamad Shahbandar - All RIGHT RECVED
+          &#9400;{year()} Mohamad Shahbandar - All RIGHT RESERVED
         </small>
       </div>
     </>
