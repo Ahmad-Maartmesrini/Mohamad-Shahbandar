@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   max-width: 100%;
   overflow-x: hidden;
   background: #000;
   cursor: none;
+  min-height: 100vh;
 }
 
 .padding-section {
-  padding: 3rem 2rem;
+  padding: 4rem 2rem;
 }
 
 
