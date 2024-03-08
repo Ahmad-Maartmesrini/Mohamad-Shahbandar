@@ -14,7 +14,7 @@ const Footer = () => {
             href="https://www.facebook.com/mohamad.shahbandar.33"
             target="_blank"
           >
-            Facebood
+            Facebook
           </a>
           <a href="https://wa.me/963998934803" target="_blank">
             WhatsApp
