@@ -1,3 +1,4 @@
+import { SmartImage } from "../ui/image/SmartImage";
 import { SparklesPreview } from "../ui/sparkles/Sparkle";
 import { mo2 } from "./imports";
 
@@ -8,22 +9,22 @@ const Projects = () => {
       <div className="flex justify-center items-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 grid-rows-2 gap-10 px-10">
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
           <div>
-            <img src={mo2} className="rounded-lg" alt="" />
+            <SmartImage url={mo2} />
           </div>
         </div>
       </div>
