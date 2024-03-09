@@ -51,13 +51,13 @@ const Header = () => {
         </ul>
         <ul>
           <li className="logo">
-            <a href="#">MS</a>
+            <a href="https://mohamadshahbandar.vercel.app">MS</a>
           </li>
           <li className="hideOnMobile">
             <a href="#home">Home</a>
           </li>
           <li className="hideOnMobile">
-            <a href="#projects">Work</a>
+            <a href="#projects">Portfolio</a>
           </li>
           <li className="hideOnMobile">
             <a href="#card">Let's Talk</a>

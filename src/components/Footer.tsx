@@ -12,7 +12,7 @@ const Footer = () => {
             target="_blank"
             className="text-gray-400 hover:text-white"
           >
-            Instgram
+            Instagram
           </a>
           <a
             href="https://www.facebook.com/mohamad.shahbandar.33"

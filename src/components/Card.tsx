@@ -11,7 +11,7 @@ const Card = () => {
         <a
           href="https://wa.me/963998934803"
           target="_blank"
-          className="p-3 rounded-full bg-[hsl(142,68%,49%)] text-xl md:text-2xl lg:text-3xl"
+          className="p-3 md:p-5 rounded-full bg-[hsl(142,68%,49%)] hover:bg-[hsl(145,70%,40%)] text-xl md:text-2xl lg:text-3xl"
         >
           <button>Click to Chat</button>
         </a>
